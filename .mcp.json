@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "marionette": {
+      "type": "stdio",
+      "command": "/Users/jesutoniaderibigbe/.pub-cache/bin/marionette_mcp",
+      "args": [],
+      "env": {}
+    },
+    "firebase": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "firebase-tools@latest",
+        "mcp"
+      ],
+      "env": {}
+    },
+    "figma": {
+      "type": "http",
+      "url": "https://mcp.figma.com/mcp"
+    }
+  }
+}

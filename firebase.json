@@ -1,0 +1,35 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "flutter-ai-playground-106cc",
+          "appId": "1:503995358234:android:0efd2cfca734b1e71985a3",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "flutter-ai-playground-106cc",
+          "configurations": {
+            "android": "1:503995358234:android:0efd2cfca734b1e71985a3",
+            "web": "1:503995358234:web:b66f544b776be3c61985a3"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4000
+    },
+    "singleProjectMode": true
+  }
+}
